@@ -1,0 +1,24 @@
+# Environments
+venv/
+env/
+.env
+
+# Cache and compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Large data and models (Optional: You can remove these if you WANT to upload your model/data)
+# But GitHub has a 100MB file limit, so .h5 models usually fail to upload.
+YOLO_Fracturas/
+consolidated_data/
+Radiografias_A_Diagnosticar/
+*.h5
+*.zip
