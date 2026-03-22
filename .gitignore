@@ -20,5 +20,4 @@ __pycache__/
 YOLO_Fracturas/
 consolidated_data/
 Radiografias_A_Diagnosticar/
-*.h5
 *.zip

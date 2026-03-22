@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Interfaz gráfica para diagnóstico de fracturas en radiografías.
-Requiere: ejecutar con el entorno virtual (venv) activado.
+Requiere: ejecutar con el entorno virtual (venv)
 """
 import os
 import sys
