@@ -15,7 +15,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_ROOT = os.path.join(BASE_DIR, 'YOLO_Fracturas', 'archive', 'Bone Break Classification')
 CONSOLIDATED_PATH = os.path.join(BASE_DIR, 'consolidated_data')
 MODEL_FILENAME = 'mejor_modelo_fracturas_densenet.h5'
-MODEL_PATH = os.path.join(DATA_ROOT, MODEL_FILENAME)
+MODEL_PATH = os.path.join(BASE_DIR, MODEL_FILENAME)
 
 # Carpetas para imágenes nuevas a diagnosticar (ajusta esto si es necesario)
 IMG_FOLDER_PATH = os.path.join(BASE_DIR, 'Radiografias_A_Diagnosticar')
