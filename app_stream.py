@@ -46,7 +46,7 @@ model = get_model()
 
 # --- SIDEBAR ---
 with st.sidebar:
-    st.image("https://cdn-icons-png.flaticon.com/512/3004/3004458.png", width=100)
+    st.image("imagen/logo_ray.png", width=100)
     st.title("Panel de Control")
     st.markdown("---")
     st.markdown("### ⚙️ Estado del Sistema")
@@ -68,6 +68,10 @@ with st.sidebar:
                 st.success("¡Entrenamiento completado! Refresque la app para cargar el nuevo modelo.")
             except Exception as e:
                 st.error(f"Error durante el entrenamiento: {e}")
+                
+    st.markdown("---")
+    st.markdown("<p style='text-align: center; color: gray; font-size: 0.8rem;'>Desarrollado con el apoyo de:</p>", unsafe_allow_html=True)
+    st.image("imagen/ticmega.png", use_container_width=True)
 
 # --- MAIN APP ---
 st.title("🦴 Asistente Médico IA - Diagnóstico de Fracturas")
