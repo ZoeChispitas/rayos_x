@@ -46,7 +46,7 @@ model = get_model()
 
 # --- SIDEBAR ---
 with st.sidebar:
-    st.image("imagen/logo_ray.png", width=100)
+    st.image("imagen/logo_ray.png", use_container_width=True)
     st.title("Panel de Control")
     st.markdown("---")
     st.markdown("### ⚙️ Estado del Sistema")
@@ -70,7 +70,6 @@ with st.sidebar:
                 st.error(f"Error durante el entrenamiento: {e}")
                 
     st.markdown("---")
-    st.markdown("<p style='text-align: center; color: gray; font-size: 0.8rem;'>Desarrollado con el apoyo de:</p>", unsafe_allow_html=True)
     st.image("imagen/ticmega.png", use_container_width=True)
 
 # --- MAIN APP ---
